@@ -12,24 +12,7 @@ A simple application which generated invoice and mails the invoice to the custom
 - Make sure you have the MyTable.py and kivytoast.py in the same location as invoice.py
 
 ###### Node JS
-- Create a new directory and change to the new created directory.
-- Run the following commands to initialise the project and to install the required modules
-`npm init`
-
-`npm install express --save`
-
-`npm install pdfkit --save`
-
-`npm install nodemailer --save`
-
-- Move the downloaded node script files to the created project and change the mail id and password in index.js script
-- Start the node application using the command,
-
-`node index.js`
-
-- Now your server is running in the port 3000 and you can send request to it by http://localhost:3000
-- The python application gets the user input, convert it into JSON and sends the data to the Node api, which will generate and sends the invoice through mail.
-- You can also deploy the Node Application in Heroku.
+- The Node Application is built and deployed in Heroku.
 
 ### UI Snippets
 >Menu
